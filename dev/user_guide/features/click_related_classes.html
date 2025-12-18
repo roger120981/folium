@@ -41,9 +41,11 @@
 <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
     <script src="../../_static/documentation_options.js?v=2cb39231"></script>
-    <script src="../../_static/doctools.js?v=9bcbadda"></script>
-    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'user_guide/features/click_related_classes';</script>
     <script>
         DOCUMENTATION_OPTIONS.theme_version = '0.16.1';
@@ -542,7 +544,7 @@
             &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
             &lt;style&gt;
-                #map_6ed8239e1476fdc77bb534208200947d {
+                #map_287ba5e449cfdde9bc237942c16f3b31 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -579,14 +581,14 @@
 &lt;body&gt;
 
 
-            &lt;div class=&quot;folium-map&quot; id=&quot;map_6ed8239e1476fdc77bb534208200947d&quot; &gt;&lt;/div&gt;
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_287ba5e449cfdde9bc237942c16f3b31&quot; &gt;&lt;/div&gt;
 
 &lt;/body&gt;
 &lt;script&gt;
 
 
-            var map_6ed8239e1476fdc77bb534208200947d = L.map(
-                &quot;map_6ed8239e1476fdc77bb534208200947d&quot;,
+            var map_287ba5e449cfdde9bc237942c16f3b31 = L.map(
+                &quot;map_287ba5e449cfdde9bc237942c16f3b31&quot;,
                 {
                     center: [0.0, 0.0],
                     crs: L.CRS.EPSG3857,
@@ -603,7 +605,7 @@
 
 
 
-            var tile_layer_0efa7c0f0ed0659978d56fcdacf0a55e = L.tileLayer(
+            var tile_layer_18067a90b28a7211a576741218927ce6 = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {
   &quot;minZoom&quot;: 0,
@@ -620,18 +622,18 @@
             );
 
 
-            tile_layer_0efa7c0f0ed0659978d56fcdacf0a55e.addTo(map_6ed8239e1476fdc77bb534208200947d);
+            tile_layer_18067a90b28a7211a576741218927ce6.addTo(map_287ba5e449cfdde9bc237942c16f3b31);
 
 
                 function newMarker(e){
-                    var new_mark = L.marker().setLatLng(e.latlng).addTo(map_6ed8239e1476fdc77bb534208200947d);
+                    var new_mark = L.marker().setLatLng(e.latlng).addTo(map_287ba5e449cfdde9bc237942c16f3b31);
                     new_mark.dragging.enable();
-                    new_mark.on(&#x27;dblclick&#x27;, function(e){ map_6ed8239e1476fdc77bb534208200947d.removeLayer(e.target)})
+                    new_mark.on(&#x27;dblclick&#x27;, function(e){ map_287ba5e449cfdde9bc237942c16f3b31.removeLayer(e.target)})
                     var lat = e.latlng.lat.toFixed(4),
                        lng = e.latlng.lng.toFixed(4);
                     new_mark.bindPopup(&quot;Latitude: &quot; + lat + &quot;&lt;br&gt;Longitude: &quot; + lng );
                     };
-                map_6ed8239e1476fdc77bb534208200947d.on(&#x27;click&#x27;, newMarker);
+                map_287ba5e449cfdde9bc237942c16f3b31.on(&#x27;click&#x27;, newMarker);
 
 &lt;/script&gt;
 &lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div></div>
@@ -672,7 +674,7 @@
             &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
             &lt;style&gt;
-                #map_d72a93d9db8c95a44d827931f9f1de26 {
+                #map_cb4832ec154067ff03f8241daa41b09a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -709,14 +711,14 @@
 &lt;body&gt;
 
 
-            &lt;div class=&quot;folium-map&quot; id=&quot;map_d72a93d9db8c95a44d827931f9f1de26&quot; &gt;&lt;/div&gt;
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_cb4832ec154067ff03f8241daa41b09a&quot; &gt;&lt;/div&gt;
 
 &lt;/body&gt;
 &lt;script&gt;
 
 
-            var map_d72a93d9db8c95a44d827931f9f1de26 = L.map(
-                &quot;map_d72a93d9db8c95a44d827931f9f1de26&quot;,
+            var map_cb4832ec154067ff03f8241daa41b09a = L.map(
+                &quot;map_cb4832ec154067ff03f8241daa41b09a&quot;,
                 {
                     center: [0.0, 0.0],
                     crs: L.CRS.EPSG3857,
@@ -733,7 +735,7 @@
 
 
 
-            var tile_layer_24df40eb170f70800d9befed29d92cee = L.tileLayer(
+            var tile_layer_8a08a46b057f82c21b386b9cddfa63ff = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {
   &quot;minZoom&quot;: 0,
@@ -750,18 +752,18 @@
             );
 
 
-            tile_layer_24df40eb170f70800d9befed29d92cee.addTo(map_d72a93d9db8c95a44d827931f9f1de26);
+            tile_layer_8a08a46b057f82c21b386b9cddfa63ff.addTo(map_cb4832ec154067ff03f8241daa41b09a);
 
 
                 function newMarker(e){
-                    var new_mark = L.marker().setLatLng(e.latlng).addTo(map_d72a93d9db8c95a44d827931f9f1de26);
+                    var new_mark = L.marker().setLatLng(e.latlng).addTo(map_cb4832ec154067ff03f8241daa41b09a);
                     new_mark.dragging.enable();
-                    new_mark.on(&#x27;dblclick&#x27;, function(e){ map_d72a93d9db8c95a44d827931f9f1de26.removeLayer(e.target)})
+                    new_mark.on(&#x27;dblclick&#x27;, function(e){ map_cb4832ec154067ff03f8241daa41b09a.removeLayer(e.target)})
                     var lat = e.latlng.lat.toFixed(4),
                        lng = e.latlng.lng.toFixed(4);
                     new_mark.bindPopup(`&lt;b&gt;Lat:&lt;/b&gt; ${lat}&lt;br /&gt;&lt;b&gt;Lon:&lt;/b&gt; ${lng}`);
                     };
-                map_d72a93d9db8c95a44d827931f9f1de26.on(&#x27;click&#x27;, newMarker);
+                map_cb4832ec154067ff03f8241daa41b09a.on(&#x27;click&#x27;, newMarker);
 
 &lt;/script&gt;
 &lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div></div>
@@ -805,7 +807,7 @@
             &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
             &lt;style&gt;
-                #map_b37224e5241feee147124d1601f90a66 {
+                #map_8ad31cd698cf922d3e44082a80804e6a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -842,14 +844,14 @@
 &lt;body&gt;
 
 
-            &lt;div class=&quot;folium-map&quot; id=&quot;map_b37224e5241feee147124d1601f90a66&quot; &gt;&lt;/div&gt;
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_8ad31cd698cf922d3e44082a80804e6a&quot; &gt;&lt;/div&gt;
 
 &lt;/body&gt;
 &lt;script&gt;
 
 
-            var map_b37224e5241feee147124d1601f90a66 = L.map(
-                &quot;map_b37224e5241feee147124d1601f90a66&quot;,
+            var map_8ad31cd698cf922d3e44082a80804e6a = L.map(
+                &quot;map_8ad31cd698cf922d3e44082a80804e6a&quot;,
                 {
                     center: [0.0, 0.0],
                     crs: L.CRS.EPSG3857,
@@ -866,7 +868,7 @@
 
 
 
-            var tile_layer_e71220aaef77275f88efa1ed7e3364e0 = L.tileLayer(
+            var tile_layer_ed71ffedd8aa21703a1cab3801505bab = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {
   &quot;minZoom&quot;: 0,
@@ -883,18 +885,18 @@
             );
 
 
-            tile_layer_e71220aaef77275f88efa1ed7e3364e0.addTo(map_b37224e5241feee147124d1601f90a66);
+            tile_layer_ed71ffedd8aa21703a1cab3801505bab.addTo(map_8ad31cd698cf922d3e44082a80804e6a);
 
 
-                var lat_lng_popup_04761d4ac5d5c39cfd4ce7c2c45422ab = L.popup();
+                var lat_lng_popup_c04cb4df6fcfffd61545c733d2fbf38d = L.popup();
                 function latLngPop(e) {
-                    lat_lng_popup_04761d4ac5d5c39cfd4ce7c2c45422ab
+                    lat_lng_popup_c04cb4df6fcfffd61545c733d2fbf38d
                         .setLatLng(e.latlng)
                         .setContent(&quot;Latitude: &quot; + e.latlng.lat.toFixed(4) +
                                     &quot;&lt;br&gt;Longitude: &quot; + e.latlng.lng.toFixed(4))
-                        .openOn(map_b37224e5241feee147124d1601f90a66);
+                        .openOn(map_8ad31cd698cf922d3e44082a80804e6a);
                     }
-                map_b37224e5241feee147124d1601f90a66.on(&#x27;click&#x27;, latLngPop);
+                map_8ad31cd698cf922d3e44082a80804e6a.on(&#x27;click&#x27;, latLngPop);
 
 &lt;/script&gt;
 &lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div></div>
@@ -938,7 +940,7 @@
             &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
             &lt;style&gt;
-                #map_be042067ce683420e67b32a960d25858 {
+                #map_c3f49b163117103861a7fbedd0afa50d {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -975,14 +977,14 @@
 &lt;body&gt;
 
 
-            &lt;div class=&quot;folium-map&quot; id=&quot;map_be042067ce683420e67b32a960d25858&quot; &gt;&lt;/div&gt;
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_c3f49b163117103861a7fbedd0afa50d&quot; &gt;&lt;/div&gt;
 
 &lt;/body&gt;
 &lt;script&gt;
 
 
-            var map_be042067ce683420e67b32a960d25858 = L.map(
-                &quot;map_be042067ce683420e67b32a960d25858&quot;,
+            var map_c3f49b163117103861a7fbedd0afa50d = L.map(
+                &quot;map_c3f49b163117103861a7fbedd0afa50d&quot;,
                 {
                     center: [0.0, 0.0],
                     crs: L.CRS.EPSG3857,
@@ -999,7 +1001,7 @@
 
 
 
-            var tile_layer_3d875b08c7d195113d329617883a89ff = L.tileLayer(
+            var tile_layer_566ab097b2a3e535344f9e496489f8a4 = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {
   &quot;minZoom&quot;: 0,
@@ -1016,7 +1018,7 @@
             );
 
 
-            tile_layer_3d875b08c7d195113d329617883a89ff.addTo(map_be042067ce683420e67b32a960d25858);
+            tile_layer_566ab097b2a3e535344f9e496489f8a4.addTo(map_c3f49b163117103861a7fbedd0afa50d);
 
 
                 function getLatLng(e){
@@ -1026,7 +1028,7 @@
                     navigator.clipboard.writeText(txt);
                     alert(&quot;Copied to clipboard : \n    &quot; + txt);
                     };
-                map_be042067ce683420e67b32a960d25858.on(&#x27;click&#x27;, getLatLng);
+                map_c3f49b163117103861a7fbedd0afa50d.on(&#x27;click&#x27;, getLatLng);
 
 &lt;/script&gt;
 &lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div></div>
@@ -1140,7 +1142,7 @@ Folium version 0.1.dev2048+gc90abbe26</div>
         <div class="footer-item">
 
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.0.4.
     <br/>
   </p>
 </div>

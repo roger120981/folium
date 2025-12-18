@@ -41,9 +41,11 @@
 <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
     <script src="../../_static/documentation_options.js?v=2cb39231"></script>
-    <script src="../../_static/doctools.js?v=9bcbadda"></script>
-    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'user_guide/plugins/semi_circle';</script>
     <script>
         DOCUMENTATION_OPTIONS.theme_version = '0.16.1';
@@ -563,7 +565,7 @@
             &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
             &lt;style&gt;
-                #map_8156c13350d9388e93f288e8ffa8ae59 {
+                #map_4e71062afaf387b7202092c1a05d8d69 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -601,14 +603,14 @@
 &lt;body&gt;
 
 
-            &lt;div class=&quot;folium-map&quot; id=&quot;map_8156c13350d9388e93f288e8ffa8ae59&quot; &gt;&lt;/div&gt;
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_4e71062afaf387b7202092c1a05d8d69&quot; &gt;&lt;/div&gt;
 
 &lt;/body&gt;
 &lt;script&gt;
 
 
-            var map_8156c13350d9388e93f288e8ffa8ae59 = L.map(
-                &quot;map_8156c13350d9388e93f288e8ffa8ae59&quot;,
+            var map_4e71062afaf387b7202092c1a05d8d69 = L.map(
+                &quot;map_4e71062afaf387b7202092c1a05d8d69&quot;,
                 {
                     center: [45.0, 3.0],
                     crs: L.CRS.EPSG3857,
@@ -625,7 +627,7 @@
 
 
 
-            var tile_layer_a26b2b0f1b4d29fa08fa7d9f58bcfce1 = L.tileLayer(
+            var tile_layer_c241a6c3a60e90d04c4017a90831f5b9 = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {
   &quot;minZoom&quot;: 0,
@@ -642,10 +644,10 @@
             );
 
 
-            tile_layer_a26b2b0f1b4d29fa08fa7d9f58bcfce1.addTo(map_8156c13350d9388e93f288e8ffa8ae59);
+            tile_layer_c241a6c3a60e90d04c4017a90831f5b9.addTo(map_4e71062afaf387b7202092c1a05d8d69);
 
 
-            var semi_circle_1ab6a5221646c8bc0ac08405cd9fdcb2 = L.semiCircle(
+            var semi_circle_b9be2acbd1b4a2ee5ad27254cfd6dbaa = L.semiCircle(
                 [45.0, 3.0],
                 {
   &quot;stroke&quot;: true,
@@ -664,27 +666,27 @@
   &quot;stopAngle&quot;: 200,
 }
                 )
-                .addTo(map_8156c13350d9388e93f288e8ffa8ae59);
+                .addTo(map_4e71062afaf387b7202092c1a05d8d69);
 
 
-        var popup_854acc064919172dc883e24e8ce52d08 = L.popup({
+        var popup_fcebfd3bb60324147d6085c4eb3dc205 = L.popup({
   &quot;maxWidth&quot;: &quot;100%&quot;,
 });
 
 
 
-                var html_ef2405aa34ccdbb6e1bdf9ab6f0ed6cb = $(`&lt;div id=&quot;html_ef2405aa34ccdbb6e1bdf9ab6f0ed6cb&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;start angle - 50 degrees, stop angle - 200 degrees&lt;/div&gt;`)[0];
-                popup_854acc064919172dc883e24e8ce52d08.setContent(html_ef2405aa34ccdbb6e1bdf9ab6f0ed6cb);
+                var html_679e8a1735d5a178979ccb528b69cd37 = $(`&lt;div id=&quot;html_679e8a1735d5a178979ccb528b69cd37&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;start angle - 50 degrees, stop angle - 200 degrees&lt;/div&gt;`)[0];
+                popup_fcebfd3bb60324147d6085c4eb3dc205.setContent(html_679e8a1735d5a178979ccb528b69cd37);
 
 
 
-        semi_circle_1ab6a5221646c8bc0ac08405cd9fdcb2.bindPopup(popup_854acc064919172dc883e24e8ce52d08)
+        semi_circle_b9be2acbd1b4a2ee5ad27254cfd6dbaa.bindPopup(popup_fcebfd3bb60324147d6085c4eb3dc205)
         ;
 
 
 
 
-            var semi_circle_195c155729b92e427ae0aeaafe946a3b = L.semiCircle(
+            var semi_circle_7995a8eb1273f38b919277ea54eb71a0 = L.semiCircle(
                 [46.5, 9.5],
                 {
   &quot;stroke&quot;: true,
@@ -702,21 +704,21 @@
 }
                 )
                     .setDirection(360, 90)
-                .addTo(map_8156c13350d9388e93f288e8ffa8ae59);
+                .addTo(map_4e71062afaf387b7202092c1a05d8d69);
 
 
-        var popup_29e25dc01bb2b46724ea2bcc162266a3 = L.popup({
+        var popup_27390645d536f33f22bf13748ede118b = L.popup({
   &quot;maxWidth&quot;: &quot;100%&quot;,
 });
 
 
 
-                var html_0d3064b729ef3c6e5f236d0162a5df4a = $(`&lt;div id=&quot;html_0d3064b729ef3c6e5f236d0162a5df4a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Direction - 0 degrees, arc 90 degrees&lt;/div&gt;`)[0];
-                popup_29e25dc01bb2b46724ea2bcc162266a3.setContent(html_0d3064b729ef3c6e5f236d0162a5df4a);
+                var html_3448a0a7a5b9681bb3620d9847ebcaf9 = $(`&lt;div id=&quot;html_3448a0a7a5b9681bb3620d9847ebcaf9&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Direction - 0 degrees, arc 90 degrees&lt;/div&gt;`)[0];
+                popup_27390645d536f33f22bf13748ede118b.setContent(html_3448a0a7a5b9681bb3620d9847ebcaf9);
 
 
 
-        semi_circle_195c155729b92e427ae0aeaafe946a3b.bindPopup(popup_29e25dc01bb2b46724ea2bcc162266a3)
+        semi_circle_7995a8eb1273f38b919277ea54eb71a0.bindPopup(popup_27390645d536f33f22bf13748ede118b)
         ;
 
 
@@ -811,7 +813,7 @@ Folium version 0.1.dev2048+gc90abbe26</div>
         <div class="footer-item">
 
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.0.4.
     <br/>
   </p>
 </div>

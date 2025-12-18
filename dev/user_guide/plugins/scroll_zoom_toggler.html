@@ -41,9 +41,11 @@
 <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
     <script src="../../_static/documentation_options.js?v=2cb39231"></script>
-    <script src="../../_static/doctools.js?v=9bcbadda"></script>
-    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'user_guide/plugins/scroll_zoom_toggler';</script>
     <script>
         DOCUMENTATION_OPTIONS.theme_version = '0.16.1';
@@ -542,7 +544,7 @@
             &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
             &lt;style&gt;
-                #map_9c4d59a2e558c1702ae812ac7e220ca6 {
+                #map_13a536cb1332f973b7a051c60d55043c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -577,7 +579,7 @@
 
 
             &lt;style&gt;
-                #scroll_zoom_toggler_2d3800a32d2954abf53f3497843f5309 {
+                #scroll_zoom_toggler_29b0ca17211850d2dc95a74cc7caeebe {
                     position:absolute;
                     width:35px;
                     bottom:10px;
@@ -594,22 +596,22 @@
 &lt;body&gt;
 
 
-            &lt;div class=&quot;folium-map&quot; id=&quot;map_9c4d59a2e558c1702ae812ac7e220ca6&quot; &gt;&lt;/div&gt;
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_13a536cb1332f973b7a051c60d55043c&quot; &gt;&lt;/div&gt;
 
 
-            &lt;img id=&quot;scroll_zoom_toggler_2d3800a32d2954abf53f3497843f5309&quot;
+            &lt;img id=&quot;scroll_zoom_toggler_29b0ca17211850d2dc95a74cc7caeebe&quot;
                  alt=&quot;scroll&quot;
                  src=&quot;https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/png/512/arrow-move.png&quot;
                  style=&quot;z-index: 999999&quot;
-                 onclick=&quot;map_9c4d59a2e558c1702ae812ac7e220ca6.toggleScroll()&quot;&gt;
+                 onclick=&quot;map_13a536cb1332f973b7a051c60d55043c.toggleScroll()&quot;&gt;
             &lt;/img&gt;
 
 &lt;/body&gt;
 &lt;script&gt;
 
 
-            var map_9c4d59a2e558c1702ae812ac7e220ca6 = L.map(
-                &quot;map_9c4d59a2e558c1702ae812ac7e220ca6&quot;,
+            var map_13a536cb1332f973b7a051c60d55043c = L.map(
+                &quot;map_13a536cb1332f973b7a051c60d55043c&quot;,
                 {
                     center: [45.0, 3.0],
                     crs: L.CRS.EPSG3857,
@@ -626,7 +628,7 @@
 
 
 
-            var tile_layer_2317730c40f1b88664e171312e916cdb = L.tileLayer(
+            var tile_layer_fd6d613c659b4c9b5926229b1f310e90 = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {
   &quot;minZoom&quot;: 0,
@@ -643,12 +645,12 @@
             );
 
 
-            tile_layer_2317730c40f1b88664e171312e916cdb.addTo(map_9c4d59a2e558c1702ae812ac7e220ca6);
+            tile_layer_fd6d613c659b4c9b5926229b1f310e90.addTo(map_13a536cb1332f973b7a051c60d55043c);
 
 
-            map_9c4d59a2e558c1702ae812ac7e220ca6.scrollEnabled = true;
+            map_13a536cb1332f973b7a051c60d55043c.scrollEnabled = true;
 
-            map_9c4d59a2e558c1702ae812ac7e220ca6.toggleScroll = function() {
+            map_13a536cb1332f973b7a051c60d55043c.toggleScroll = function() {
                 if (this.scrollEnabled) {
                     this.scrollEnabled = false;
                     this.scrollWheelZoom.disable();
@@ -657,7 +659,7 @@
                     this.scrollWheelZoom.enable();
                 }
             };
-            map_9c4d59a2e558c1702ae812ac7e220ca6.toggleScroll();
+            map_13a536cb1332f973b7a051c60d55043c.toggleScroll();
 
 &lt;/script&gt;
 &lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div></div>
@@ -749,7 +751,7 @@ Folium version 0.1.dev2048+gc90abbe26</div>
         <div class="footer-item">
 
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.0.4.
     <br/>
   </p>
 </div>

@@ -41,9 +41,11 @@
 <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
     <script src="../../_static/documentation_options.js?v=2cb39231"></script>
-    <script src="../../_static/doctools.js?v=9bcbadda"></script>
-    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'user_guide/raster_layers/wms_tile_layer';</script>
     <script>
         DOCUMENTATION_OPTIONS.theme_version = '0.16.1';
@@ -552,7 +554,7 @@
             &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
             &lt;style&gt;
-                #map_ece2fbc618bd8c78a45cf809aa334ac7 {
+                #map_960c91cbd52a58c30770a4ad89f702d9 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -589,14 +591,14 @@
 &lt;body&gt;
 
 
-            &lt;div class=&quot;folium-map&quot; id=&quot;map_ece2fbc618bd8c78a45cf809aa334ac7&quot; &gt;&lt;/div&gt;
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_960c91cbd52a58c30770a4ad89f702d9&quot; &gt;&lt;/div&gt;
 
 &lt;/body&gt;
 &lt;script&gt;
 
 
-            var map_ece2fbc618bd8c78a45cf809aa334ac7 = L.map(
-                &quot;map_ece2fbc618bd8c78a45cf809aa334ac7&quot;,
+            var map_960c91cbd52a58c30770a4ad89f702d9 = L.map(
+                &quot;map_960c91cbd52a58c30770a4ad89f702d9&quot;,
                 {
                     center: [41.0, -70.0],
                     crs: L.CRS.EPSG3857,
@@ -613,7 +615,7 @@
 
 
 
-            var tile_layer_2017b3d30a225c19ed54ff3fc1cc89cb = L.tileLayer(
+            var tile_layer_49683a7faca198092f2451f0ed534f71 = L.tileLayer(
                 &quot;https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png&quot;,
                 {
   &quot;minZoom&quot;: 0,
@@ -630,35 +632,35 @@
             );
 
 
-            tile_layer_2017b3d30a225c19ed54ff3fc1cc89cb.addTo(map_ece2fbc618bd8c78a45cf809aa334ac7);
+            tile_layer_49683a7faca198092f2451f0ed534f71.addTo(map_960c91cbd52a58c30770a4ad89f702d9);
 
 
-            var macro_element_52f0bc1b1c4e380e2dfa7a824928895e = L.tileLayer.wms(
+            var macro_element_5ae779608b303db84c675f96c503d813 = L.tileLayer.wms(
                 &quot;https://mesonet.agron.iastate.edu/cgi-bin/wms/nexrad/n0r.cgi&quot;,
                 {&quot;attribution&quot;: &quot;Weather data \u00a9 2012 IEM Nexrad&quot;, &quot;format&quot;: &quot;image/png&quot;, &quot;layers&quot;: &quot;nexrad-n0r-900913&quot;, &quot;styles&quot;: &quot;&quot;, &quot;transparent&quot;: true, &quot;version&quot;: &quot;1.1.1&quot;}
             );
 
 
-            macro_element_52f0bc1b1c4e380e2dfa7a824928895e.addTo(map_ece2fbc618bd8c78a45cf809aa334ac7);
+            macro_element_5ae779608b303db84c675f96c503d813.addTo(map_960c91cbd52a58c30770a4ad89f702d9);
 
 
-            var layer_control_d26ebfe05eed0e9f50ddf9819f171870_layers = {
+            var layer_control_4adac85ef229e7f10dc8eda70d1d11d1_layers = {
                 base_layers : {
-                    &quot;cartodbpositron&quot; : tile_layer_2017b3d30a225c19ed54ff3fc1cc89cb,
+                    &quot;cartodbpositron&quot; : tile_layer_49683a7faca198092f2451f0ed534f71,
                 },
                 overlays :  {
-                    &quot;test&quot; : macro_element_52f0bc1b1c4e380e2dfa7a824928895e,
+                    &quot;test&quot; : macro_element_5ae779608b303db84c675f96c503d813,
                 },
             };
-            let layer_control_d26ebfe05eed0e9f50ddf9819f171870 = L.control.layers(
-                layer_control_d26ebfe05eed0e9f50ddf9819f171870_layers.base_layers,
-                layer_control_d26ebfe05eed0e9f50ddf9819f171870_layers.overlays,
+            let layer_control_4adac85ef229e7f10dc8eda70d1d11d1 = L.control.layers(
+                layer_control_4adac85ef229e7f10dc8eda70d1d11d1_layers.base_layers,
+                layer_control_4adac85ef229e7f10dc8eda70d1d11d1_layers.overlays,
                 {
   &quot;position&quot;: &quot;topright&quot;,
   &quot;collapsed&quot;: true,
   &quot;autoZIndex&quot;: true,
 }
-            ).addTo(map_ece2fbc618bd8c78a45cf809aa334ac7);
+            ).addTo(map_960c91cbd52a58c30770a4ad89f702d9);
 
 
 &lt;/script&gt;
@@ -751,7 +753,7 @@ Folium version 0.1.dev2048+gc90abbe26</div>
         <div class="footer-item">
 
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.0.4.
     <br/>
   </p>
 </div>
