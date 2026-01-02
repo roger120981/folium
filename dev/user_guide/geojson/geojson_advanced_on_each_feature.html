@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Advanced GeoJSON Customization with on_each_feature &#8212; Folium 0.1.dev2048+gc90abbe26 documentation</title>
+    <title>Advanced GeoJSON Customization with on_each_feature &#8212; Folium 0.1.dev2066+g460e8bc38 documentation</title>
   
   
   
@@ -40,7 +40,7 @@
   <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
 <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
-    <script src="../../_static/documentation_options.js?v=2cb39231"></script>
+    <script src="../../_static/documentation_options.js?v=816fb4fb"></script>
     <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
     <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
@@ -60,7 +60,7 @@
     <link rel="prev" title="GeoJSON popup and tooltip" href="geojson_popup_and_tooltip.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="0.1.dev2048+gc90abbe26" />
+  <meta name="docsearch:version" content="0.1.dev2066+g460e8bc38" />
   </head>
   
   
@@ -600,7 +600,7 @@
             &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
             &lt;style&gt;
-                #map_1ef0b59bda6932d26cff68290ed66aa3 {
+                #map_37eb2148b479f46bc1494d5ccc20b317 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -637,14 +637,14 @@
 &lt;body&gt;
 
 
-            &lt;div class=&quot;folium-map&quot; id=&quot;map_1ef0b59bda6932d26cff68290ed66aa3&quot; &gt;&lt;/div&gt;
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_37eb2148b479f46bc1494d5ccc20b317&quot; &gt;&lt;/div&gt;
 
 &lt;/body&gt;
 &lt;script&gt;
 
 
-            var map_1ef0b59bda6932d26cff68290ed66aa3 = L.map(
-                &quot;map_1ef0b59bda6932d26cff68290ed66aa3&quot;,
+            var map_37eb2148b479f46bc1494d5ccc20b317 = L.map(
+                &quot;map_37eb2148b479f46bc1494d5ccc20b317&quot;,
                 {
                     center: [12.9716, 77.5946],
                     crs: L.CRS.EPSG3857,
@@ -661,7 +661,7 @@
 
 
 
-            var tile_layer_45188b3c5aa2772f52a3386bf250499e = L.tileLayer(
+            var tile_layer_492cc112bb764632b812d5521cc75c8f = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {
   &quot;minZoom&quot;: 0,
@@ -678,11 +678,11 @@
             );
 
 
-            tile_layer_45188b3c5aa2772f52a3386bf250499e.addTo(map_1ef0b59bda6932d26cff68290ed66aa3);
+            tile_layer_492cc112bb764632b812d5521cc75c8f.addTo(map_37eb2148b479f46bc1494d5ccc20b317);
 
 
 
-        function geo_json_6d7bcb82bb1c783191e1f9ecd53765b1_onEachFeature(feature, layer) {
+        function geo_json_797f42477c2360379ac54c0d42a0086a_onEachFeature(feature, layer) {
             (
 function(feature, layer) {
     layer.bindTooltip(
@@ -701,23 +701,23 @@ function(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_6d7bcb82bb1c783191e1f9ecd53765b1 = L.geoJson(null, {
-                onEachFeature: geo_json_6d7bcb82bb1c783191e1f9ecd53765b1_onEachFeature,
+        var geo_json_797f42477c2360379ac54c0d42a0086a = L.geoJson(null, {
+                onEachFeature: geo_json_797f42477c2360379ac54c0d42a0086a_onEachFeature,
 
             ...{
 }
         });
 
-        function geo_json_6d7bcb82bb1c783191e1f9ecd53765b1_add (data) {
-            geo_json_6d7bcb82bb1c783191e1f9ecd53765b1
+        function geo_json_797f42477c2360379ac54c0d42a0086a_add (data) {
+            geo_json_797f42477c2360379ac54c0d42a0086a
                 .addData(data);
         }
-            geo_json_6d7bcb82bb1c783191e1f9ecd53765b1_add({&quot;features&quot;: [{&quot;geometry&quot;: {&quot;coordinates&quot;: [77.5946, 12.9716], &quot;type&quot;: &quot;Point&quot;}, &quot;properties&quot;: {&quot;name&quot;: &quot;Location 1&quot;, &quot;value&quot;: 100}, &quot;type&quot;: &quot;Feature&quot;}, {&quot;geometry&quot;: {&quot;coordinates&quot;: [77.62, 12.98], &quot;type&quot;: &quot;Point&quot;}, &quot;properties&quot;: {&quot;name&quot;: &quot;Location 2&quot;, &quot;value&quot;: 200}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
-        geo_json_6d7bcb82bb1c783191e1f9ecd53765b1.setStyle(function(feature) {return feature.properties.style;});
+            geo_json_797f42477c2360379ac54c0d42a0086a_add({&quot;features&quot;: [{&quot;geometry&quot;: {&quot;coordinates&quot;: [77.5946, 12.9716], &quot;type&quot;: &quot;Point&quot;}, &quot;properties&quot;: {&quot;name&quot;: &quot;Location 1&quot;, &quot;value&quot;: 100}, &quot;type&quot;: &quot;Feature&quot;}, {&quot;geometry&quot;: {&quot;coordinates&quot;: [77.62, 12.98], &quot;type&quot;: &quot;Point&quot;}, &quot;properties&quot;: {&quot;name&quot;: &quot;Location 2&quot;, &quot;value&quot;: 200}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
+        geo_json_797f42477c2360379ac54c0d42a0086a.setStyle(function(feature) {return feature.properties.style;});
 
 
 
-            geo_json_6d7bcb82bb1c783191e1f9ecd53765b1.addTo(map_1ef0b59bda6932d26cff68290ed66aa3);
+            geo_json_797f42477c2360379ac54c0d42a0086a.addTo(map_37eb2148b479f46bc1494d5ccc20b317);
 
 &lt;/script&gt;
 &lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div></div>
@@ -816,13 +816,13 @@ function(feature, layer) {
     <div class="footer-items__start">
       
         <div class="footer-item"><!-- This will display the version of the docs -->
-Folium version 0.1.dev2048+gc90abbe26</div>
+Folium version 0.1.dev2066+g460e8bc38</div>
       
         <div class="footer-item">
 
   <p class="copyright">
     
-      © Copyright 2013-2025, Rob Story.
+      © Copyright 2013-2026, Rob Story.
       <br/>
     
   </p>
@@ -831,7 +831,7 @@ Folium version 0.1.dev2048+gc90abbe26</div>
         <div class="footer-item">
 
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.0.4.
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
     <br/>
   </p>
 </div>
